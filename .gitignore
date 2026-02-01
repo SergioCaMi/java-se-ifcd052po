@@ -1,0 +1,20 @@
+# 1. Bloquear todo
+/*
+
+# 2. Permitir archivos básicos
+!/.gitignore
+!/README.md
+
+# 3. Permitir carpetas que empiecen por 'Ejercicios' en cualquier nivel
+!**/[Ee]jercicio*/
+!**/[Ee]jercicio*/**
+
+# 4. Filtro de basura (esto bloquea archivos de NetBeans aunque estén en carpetas de Ejercicios)
+**/build/
+**/nbproject/
+**/test/
+*.class
+
+# Eliminar archivos de construcción de NetBeans
+**/build.xml
+**/manifest.mf
