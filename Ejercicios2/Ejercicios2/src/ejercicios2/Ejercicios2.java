@@ -314,8 +314,6 @@ o Suma sólo el daño de los ataques que no fueron críticos.
             noCriticos += numeros[t];
             } 
             System.out.println(numeros[t]);
-            
-            
         }
         System.out.println("Cantidad de daños críticos: "+criticos);
             System.out.println("Cantidad de daño total no crítico: "+noCriticos);
