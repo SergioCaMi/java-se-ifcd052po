@@ -1,20 +1,21 @@
-# 1. Bloquear TODO por defecto
+# 1. Bloquear todo
 *
 
-# 2. Permitir que Git navegue por las carpetas
+# 2. Permitir que Git entre en los dos primeros niveles de carpetas
 !*/
+!/*/*/
 
-# 3. Archivos maestros
+# 3. Archivos base
 !.gitignore
 !README.md
 
-# 4. SOLO archivos .java dentro de carpetas [Ee]jercicio*
-!**/[Ee]jercicio*/**/*.java
+# 4. Permitir SOLO archivos .java en cualquier profundidad
+!**/*.java
 
-# 5. BLOQUEO TOTAL de carpetas de cursos/ejemplos externos
-/0JavaSEProgramming/
+# 5. Bloqueo total de carpetas de NetBeans y basura
 **/build/
 **/nbproject/
+**/test/
 **/dist/
 *.xml
 *.properties
