@@ -1,0 +1,21 @@
+# 1. Ignorar todo por defecto
+*
+
+# 2. Permitir la estructura de carpetas
+!*/
+
+# 3. Archivos base
+!.gitignore
+!README.md
+
+# 4. SOLO archivos .java que estén DENTRO de carpetas [Ee]jercicio...
+!**/[Ee]jercicio*/**/*.java
+
+# 5. Bloqueo explícito de basura
+**/build/
+**/nbproject/
+**/dist/
+*.pdf
+*.xml
+*.mf
+*.class
