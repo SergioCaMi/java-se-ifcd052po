@@ -1,0 +1,18 @@
+# Bloquear todo por defecto
+*
+# Permitir carpetas
+!*/
+
+# Excepciones (Lo que SÍ queremos)
+!.gitignore
+!README.md
+!**/*.java
+
+# Bloqueo explícito de basura (Doble seguridad)
+**/nbproject/
+**/build/
+**/dist/
+*.pdf
+*.class
+*.xml
+*.mf
